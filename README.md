@@ -23,4 +23,4 @@ The on-board RESET button makes development easier.
 
 These files without warranty of any kind, use at your own risk, it is recommended to check yourself before use.
 
-For the full statement, please see [LICENSE](./LISENSE).
+For the full statement, please see [LICENSE](./LICENSE).
