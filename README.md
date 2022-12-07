@@ -5,11 +5,44 @@
 It has mid-mount USB Type-C and more available pins (25 pins, all pins of ATmega32U4 except `PE2/HWB`) than both Pro Micro (18 pins) and Elite-C (24 pins).  
 The on-board RESET button makes development easier.
 
-|Front|Back|
-|-|-|
-|![](https://i.imgur.com/b0bpwNm.png)|![](https://i.imgur.com/EtPF6Ww.png)|
-
 > A part of [ErgoSNM keyboard](https://github.com/ziteh/ergo-snm-keyboard).
+
+## Preview
+
+| Front                           | Back                           | Layers                    |
+| ------------------------------- | ------------------------------ | ------------------------- |
+| ![](./doc/pcb_render_front.jpg) | ![](./doc/pcb_render_back.jpg) | ![](./doc/pcb_layers.jpg) |
+
+
+## Pinouts
+| Func | 32U4  | L <-> R |  32U4 | Func |
+| :--- | :---- | :-----: | ----: | ---: |
+|      | PB7\* |         |   PB0 |      |
+| TX   | PD3   |         |   RAW |      |
+| RX   | PD2   |         |   GND |      |
+|      | GND   |         | RESET |      |
+|      | GND   |         |   VCC |      |
+| SDA  | PD1   |         |   PF4 |   A3 |
+| SCL  | PD0\* |         |   PF5 |   A2 |
+| A6   | PD4   |         |   PF6 |   A1 |
+|      | PC6\* |         |   PF7 |   A0 |
+| A7   | PD7\* |         |   PB1 | SCLK |
+|      | PE6   |         |   PB3 | MISO |
+| A8   | PB4   |         |   PB2 | MOSI |
+| A9   | PB5\* |         | PB6\* |  A10 |
+
+Button row from left to right: PD6, PD5, PC7\*, PF1, PF0.
+
+- The pin marked with `*` can output PWM.
+- RAW: LDO Vin pin.
+
+> The pinouts not fully compatible with Elite-C.
+
+## Jumper Config
+
+- JP1: LDO bypass.
+  - Open: VCC is 3.3V (LDO Vout).
+  - Closed: VCC is 5V (VBUS or RAW). 
 
 ## BOM
 
