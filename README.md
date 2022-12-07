@@ -82,7 +82,7 @@ The BOM and CPL files for PCBA are placed in the [`doc/`](./doc/) folder and [re
 
 ## Disclaimer
 
-These files without warranty of any kind, use at your own risk, it is recommended to check yourself before use.
+These files without warranty of any kind, use at your own risk, it is recommended to check yourself before manufacture.
 
 For the full statement, please see [LICENSE](./LICENSE).
 
