@@ -5,7 +5,7 @@
 It has mid-mount USB Type-C and more available pins (25 pins, all pins of ATmega32U4 except `PE2/HWB`) than both Pro Micro (18 pins) and Elite-C (24 pins).  
 The on-board RESET button makes development easier.
 
-> A part of [ErgoSNM keyboard](https://github.com/ziteh/ergo-snm-keyboard).
+> A part of [ErgoSNM keyboard](https://github.com/ziteh/ergo-snm-keyboard) project.  
 
 ## Preview
 
