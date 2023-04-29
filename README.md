@@ -31,7 +31,7 @@ The on-board RESET button makes development easier.
 | A8   | PB4   |         |   PB2 | MOSI |
 | A9   | PB5\* |         | PB6\* |  A10 |
 
-Button row from left to right: PD6, PD5, PC7\*, PF1, PF0.
+Bottom row from left to right: PD6, PD5, PC7\*, PF1, PF0.
 
 - The pin marked with `*` can output PWM.
 - RAW: LDO Vin pin.
